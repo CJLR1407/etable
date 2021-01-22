@@ -1,0 +1,17 @@
+<div *ngIf="!cliente" class="m-3">
+    <div *ngIf="load" class="div-loading" style="position:absolute"><img class="loading" src="{{loading}}" /></div>
+    <h3 *ngIf="!load">Bienvenido, {{user.usnombres}}</h3>
+    <hr />
+    <span class="mb-3">Sistema de Reservación de Mesas</span>
+    <p class="f-13">Verisón 1.0.0</p>
+</div>
+
+<div *ngIf="cliente" class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-heading text-uppercase">{{configuracion.empnombre}}</div>
+        <div class="intro-lead-in">{{configuracion.empdescripcion}}</div>
+      </div>
+    </div>
+  </div>
+  
