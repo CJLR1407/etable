@@ -1,4 +1,7 @@
 ﻿# eTable: Sistema de Reservación de Mesas para Restaurantes 
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f8b0c931e30f4a739cdd7b9dd69a738f)](https://app.codacy.com/gh/CJLR1407/etable?utm_source=github.com&utm_medium=referral&utm_content=CJLR1407/etable&utm_campaign=Badge_Grade_Settings)
+
 Aplicación Web que consiste en la administración del negocio básico de un retaurante, administración de las mesas disponibles, gestión de clientes, realizar reservacion, anular reservacion, aceptar reservaciones realizadas, entre otros.
 
 
